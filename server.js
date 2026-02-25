@@ -152,6 +152,14 @@ app.use((err, req, res, next) => {
   });
 });
 
+// Allow multiple origins
+
+
+// Or allow all in development (not recommended for production)
+/*app.use(cors({
+  origin: 'http://localhost:5173',
+  credentials: true
+}));*/
 // ======================
 // INICIAR SERVIDOR
 // ======================
